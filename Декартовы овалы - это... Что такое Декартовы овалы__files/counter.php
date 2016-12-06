@@ -1,0 +1,31 @@
+
+			var divCountStatHref = document.createElement('a');
+				divCountStatHref.setAttribute('href','http://countstat.ru/');
+				divCountStatHref.setAttribute('rel','nofollow');
+				divCountStatHref.setAttribute('id','divCountStatHref');
+				divCountStatHref.setAttribute('style','cursor:pointer;');
+			var divCountStatCont = document.createElement('div');
+				divCountStatCont.setAttribute('id','divCountStatCont');
+				divCountStatCont.setAttribute('style','display:block;width:20px;height:20px;background-color:#fff;border-radius:2px;vertical-align:middle;');
+			var divCountStatView = document.createElement('div');
+				divCountStatView.setAttribute('id','divCountStatView');
+				divCountStatView.setAttribute('style','position:relative;display:inline-block; width:15px;height:14px;fill:#ff9822;margin-left:2px;');
+			var divCountStatSVG = document.createElementNS('http://www.w3.org/2000/svg','svg');
+				divCountStatSVG.setAttribute('version','1.1');
+				divCountStatSVG.setAttribute('id','divCountStatSVG');
+				divCountStatSVG.setAttribute('xmlns','http://www.w3.org/2000/svg');
+				divCountStatSVG.setAttribute('xmlns:xlink','http://www.w3.org/1999/xlink');
+				divCountStatSVG.setAttribute('x','0px');
+				divCountStatSVG.setAttribute('y','0px');
+				divCountStatSVG.setAttribute('viewBox','0 0 25 18');
+				divCountStatSVG.setAttribute('enable-background','new 0 0 25 18');
+				divCountStatSVG.setAttribute('xml:space','preserve');
+			var divCountStatPath = document.createElementNS('http://www.w3.org/2000/svg','path');
+				divCountStatPath.setAttribute('path','SVGID_1_');
+				divCountStatPath.setAttribute('d','M9.691,11.446c-3.168,0-5.746-2.566-5.746-5.722c0-3.154,2.578-5.72,5.746-5.72 c3.169,0,5.748,2.566,5.748,5.72C15.439,8.88,12.861,11.446,9.691,11.446L9.691,11.446z M9.691,1.984 c-2.072,0-3.756,1.678-3.756,3.741c0,2.064,1.685,3.741,3.756,3.741c2.073,0,3.758-1.677,3.758-3.741 C13.449,3.662,11.764,1.984,9.691,1.984L9.691,1.984z M18.397,17.995H0.987c-0.55,0-0.995-0.442-0.995-0.989 c0-2.89,5.41-4.823,7.067-5.347c0.326-0.104,0.682-0.034,0.944,0.187l1.688,1.422l1.689-1.422 c0.261-0.221,0.619-0.292,0.944-0.187c1.657,0.524,7.067,2.457,7.067,5.347C19.392,17.553,18.946,17.995,18.397,17.995 L18.397,17.995z M12.239,13.719l-1.904,1.603c-0.372,0.313-0.914,0.313-1.285,0l-1.904-1.603c-1.746,0.608-3.532,1.5-4.478,2.297 h14.048C15.771,15.219,13.985,14.327,12.239,13.719L12.239,13.719z M24.261,16.116h-3.704c-0.412,0-0.746-0.333-0.746-0.743 s0.335-0.742,0.746-0.742h2.652c-0.528-0.708-1.614-1.405-2.224-1.706c-0.369-0.183-0.519-0.628-0.335-0.995 c0.183-0.367,0.63-0.517,0.998-0.336c0.344,0.17,3.358,1.717,3.358,3.779C25.008,15.783,24.673,16.116,24.261,16.116 L24.261,16.116z M17.951,11.813c-1.009,0-1.956-0.392-2.67-1.103c-0.292-0.29-0.292-0.76,0-1.05c0.292-0.29,0.763-0.29,1.055,0 c0.431,0.43,1.006,0.666,1.615,0.666c1.261,0,2.287-1.02,2.287-2.276c0-1.255-1.026-2.274-2.287-2.274 c-0.307,0-0.607,0.06-0.889,0.178c-0.379,0.16-0.817-0.017-0.978-0.395c-0.16-0.378,0.018-0.814,0.398-0.974 c0.467-0.197,0.961-0.296,1.47-0.296c2.084,0,3.778,1.688,3.778,3.761C21.729,10.125,20.035,11.813,17.951,11.813L17.951,11.813z');
+			document.getElementById('Countstat218').appendChild(divCountStatHref);
+			document.getElementById('divCountStatHref').appendChild(divCountStatCont);
+			document.getElementById('divCountStatCont').appendChild(divCountStatView);
+			document.getElementById('divCountStatView').appendChild(divCountStatSVG);
+			document.getElementById('divCountStatSVG').appendChild(divCountStatPath);
+		
